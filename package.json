@@ -1,0 +1,14 @@
+{
+  "name": "seeqr-landing",
+  "version": "1.0.0",
+  "description": "A Landing Site for SeeQR, a desktop testing and analytics tool for SQL DBs",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "author": "Team SeeQR",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.7.6"
+  }
+}
